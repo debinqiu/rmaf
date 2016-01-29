@@ -28,7 +28,7 @@ ma.filter <- function (x, q = NULL, seasonal = FALSE, period = NULL,plot = TRUE)
                       sum(xt[(j - q.n):n]) + 6 * (q.n - n + j) * 
                       sum(c(-q.n:(n - j)) * xt[(j - q.n):n]))/
                       ((n + q.n - j + 2) * (n + q.n - j + 1) * (n + q.n - j))
-      }
+      } 
     }
     return(mhat)
   }
