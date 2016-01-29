@@ -6,7 +6,7 @@ To install the version from CRAN, simply run the following from an R console:
 ```
 install.packages("rmaf")
 ```
-or load the devtools package and use install_github as follows.
+or load the devtools package and use `install_github` as follows.
 ```
 library(devtools)
 install_github("deman007/rmaf")
