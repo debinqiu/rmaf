@@ -1,0 +1,10 @@
+Package: rmaf
+Type: Package
+Title: Refined Moving Average Filter
+Version: 3.0.1
+Date: 2015-04-14
+Author: Debin Qiu
+Maintainer: Debin Qiu <debinqiu@uga.edu>
+Description: Uses refined moving average filter based on the optimal and data-driven moving average lag q or smoothing spline to estimate trend and seasonal components, as well as irregularity (residuals) for univariate time series or data. 
+License: GPL (>= 2)
+Packaged: 2015-04-15 19:30:37 UTC; Deman
