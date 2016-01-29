@@ -14,12 +14,15 @@ install_github("deman007/rmaf")
 
 # Functions
 For the detailed functions contained in **rmaf** package, use `library(help = rmaf)`. For the details of arguments of each function, use the question mark '?' to access the help file. For example, type the following commands in R console
+> moving average filter
 ```
 ?ma.filter
 ```
+> smoothing spline filter
 ```
 ?ss.filter
 ```
+> optimal and data-driven moving average lag
 ```
 ?qn
 ```
