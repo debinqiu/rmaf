@@ -3,5 +3,7 @@ An R package contains a refined moving average filter using the optimal and data
 
 # Installation
 To install the version from CRAN, simply run the following from an R console:
-
+```
+install.packages("rmaf")
+```
 
