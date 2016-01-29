@@ -15,7 +15,7 @@ ma.filter <- function (x, q = NULL, seasonal = FALSE, period = NULL,plot = TRUE)
       q.n <- ifelse(qn(xt) < n, as.integer(min(qn(xt), n - qn(xt))), floor(n^(4/5)/2))
     else q.n <- q
     for (j in 1:n) {
-      if (j >= q.n + 1 && j <= n - q.n) {
+      if (j >= q.n + 1 && j <= n - q.n) { 
         mhat[j] <- sum(xt[(j - q.n):(q.n + j)])/(2 * q.n + 1)
       }
       else if (j < q.n + 1) {
