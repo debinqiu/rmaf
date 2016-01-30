@@ -9,7 +9,7 @@ install.packages("rmaf")
 or load the devtools package and use `install_github` as follows.
 ```
 library(devtools)
-install_github("deman007/rmaf")
+install_github("debinqiu/rmaf")
 ```
 
 # Functions
