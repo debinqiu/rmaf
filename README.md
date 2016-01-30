@@ -39,7 +39,7 @@ For the detailed functions contained in **rmaf** package, use `library(help = rm
 ```
 - The third example is to decompose the trend and seasonality for monthly airline passenger numbers from 1949-1960.
 ```
-decomp3 <- ma.filter(AirPassengers, seasonal = TRUE, period = 12)
+> decomp3 <- ma.filter(AirPassengers, seasonal = TRUE, period = 12)
 ```
 - Finally, we look at an example from the generated time series data which contains both trend and seasonality. 
 ```
