@@ -28,12 +28,12 @@ For the detailed functions contained in **rmaf** package, use `library(help = rm
 ```
 
 # Examples
--We first decompose the trend for the first difference of annual global air temperature from 1880-1985. See `globtemp` for more details of the dataset.
+- We first decompose the trend for the first difference of annual global air temperature from 1880-1985. See `globtemp` for more details of the dataset.
 ```
 > data(globtemp)
 > decomp1 <- ma.filter(globtemp)
 ```
--The second example is to decompose the trend and seasonality for CO2 data with monthly and additive seasonality.
+- The second example is to decompose the trend and seasonality for CO2 data with monthly and additive seasonality.
 ```
 > decomp2 <- ma.filter(co2, seasonal = TRUE, period = 12)
 ```
