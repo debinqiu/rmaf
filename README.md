@@ -64,3 +64,6 @@ For the detailed functions contained in **rmaf** package, use `library(help = rm
 
 ```
 Note that the true coefficients of ARMA model is 0.8897, -0.4858, -0.2279, 0.2488 and the true sigma^2 = 0.1796. The estimates of ARMA coefficients are 0.9586, -0.5291, -0.3340, 0.2249, respectively, which are very close to the true coefficients. This property is called oraclly eccifient property. Also, the estimated sigma^2 = 0.1766, which is extremely close to 0.1796. 
+
+# Application
+A web application of `rmaf` using R shiny is available from https://dqiu.shinyapps.io/rmaf_webapp/.
