@@ -28,4 +28,4 @@ For the detailed functions contained in **rmaf** package, use `library(help = rm
 ```
 
 # Application
-A web application of `rmaf` using R shiny is available from https://dqiu.shinyapps.io/rmaf_webapp/.
+A web application of `rmaf` using R shiny is available from https://dqiu.shinyapps.io/rmaf_webapp/. More examples can be refered to *EXAMPLES.md* file.
