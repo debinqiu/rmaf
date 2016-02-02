@@ -1,4 +1,4 @@
-We give some simple examples to demonstrate the usage of the main functions contained in this R package.
+We give some simple examples to demonstrate the usage of the main functions contained in this R package. Only `ma.filter` is present in those examples and `ss.filter` has the same usages. 
 - We first decompose the trend for the first difference of annual global air temperature from 1880-1985. See `globtemp` for more details of the dataset.
 ```
 > data(globtemp)
