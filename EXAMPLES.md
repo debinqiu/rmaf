@@ -20,6 +20,7 @@ Frequency = 1
 1885 -0.54 -0.449487179 -0.0905128205
 ......
 ```
+![globtemp](https://cloud.githubusercontent.com/assets/16762941/12869071/0502483c-cce3-11e5-86ec-78e6d6cc57ea.png)
 - The second example is to decompose the trend and seasonality for CO2 data with monthly and additive seasonality.
 ```
 > str(co2)
@@ -35,6 +36,7 @@ May 1959 318.13 315.8067  2.8285256 -0.505261405
 Jun 1959 318.00 315.8823  2.2746795 -0.157002801
 ......
 ```
+![co2](https://cloud.githubusercontent.com/assets/16762941/12869073/11bee1ca-cce3-11e5-98d7-376395fc931c.png)
 - The third example is to decompose the trend and multiplicative seasonality for monthly airline passenger numbers from 1949-1960. Since `ma.filter` can be only used for additive seasonality, we first use the logarithm transformation on the original data in order to convert the multiplicative seasonality to additive seasonality. 
 ```
 > str(AirPassengers)
@@ -50,6 +52,8 @@ May 1949 4.795791 4.832621 -0.02597965 -0.010850870
 Jun 1949 4.905275 4.836203  0.10623535 -0.037163155
 ......
 ```
+![airpassenger](https://cloud.githubusercontent.com/assets/16762941/12869107/8c9471d0-cce3-11e5-97a8-917fb1638457.png)
+
 - Finally, we look at an example from the generated time series data which contains both trend and additive seasonality. Note that the true coefficients of ARMA model is set to be 0.8897, -0.4858, -0.2279, 0.2488 and the true sigma^2 = 0.1796. The estimates of ARMA coefficients are 0.9586, -0.5291, -0.3340, 0.2249, respectively, which are very close to the true coefficients. This property is called oraclly eccifient property. Also, the estimated sigma^2 = 0.1766, which is extremely close to 0.1796. 
 ```
 > set.seed(123)
